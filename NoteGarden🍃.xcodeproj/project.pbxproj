@@ -11,6 +11,13 @@
 		BD3E990B2C594ECE00CF13E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3E990A2C594ECE00CF13E2 /* ContentView.swift */; };
 		BD3E990D2C594ED000CF13E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3E990C2C594ED000CF13E2 /* Assets.xcassets */; };
 		BD3E99102C594ED000CF13E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3E990F2C594ED000CF13E2 /* Preview Assets.xcassets */; };
+		BD3EE2902C595DFA0068B0F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3EE28A2C595DFA0068B0F4 /* Preview Assets.xcassets */; };
+		BD3EE2912C595DFA0068B0F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3EE28C2C595DFA0068B0F4 /* Assets.xcassets */; };
+		BD3EE2922C595DFA0068B0F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3EE28D2C595DFA0068B0F4 /* ContentView.swift */; };
+		BD3EE2932C595DFA0068B0F4 /* NoteGarden__App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3EE28E2C595DFA0068B0F4 /* NoteGarden__App.swift */; };
+		BD3EE29D2C5AAFF20068B0F4 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3EE29C2C5AAFF20068B0F4 /* CameraView.swift */; };
+		BD3EE29F2C5AB03D0068B0F4 /* Content-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3EE29E2C5AB03D0068B0F4 /* Content-ViewModel.swift */; };
+		BD3EE2A32C5AB89B0068B0F4 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3EE2A22C5AB89B0068B0F4 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		BD3E990A2C594ECE00CF13E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD3E990C2C594ED000CF13E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD3E990F2C594ED000CF13E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD3EE28A2C595DFA0068B0F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD3EE28C2C595DFA0068B0F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD3EE28D2C595DFA0068B0F4 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD3EE28E2C595DFA0068B0F4 /* NoteGarden__App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteGarden__App.swift; sourceTree = "<group>"; };
+		BD3EE29C2C5AAFF20068B0F4 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		BD3EE29E2C5AB03D0068B0F4 /* Content-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Content-ViewModel.swift"; sourceTree = "<group>"; };
+		BD3EE2A22C5AB89B0068B0F4 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +67,11 @@
 			children = (
 				BD3E99082C594ECE00CF13E2 /* NoteGarden__App.swift */,
 				BD3E990A2C594ECE00CF13E2 /* ContentView.swift */,
+				BD3EE2A22C5AB89B0068B0F4 /* ImagePicker.swift */,
+				BD3EE29C2C5AAFF20068B0F4 /* CameraView.swift */,
+				BD3EE29E2C5AB03D0068B0F4 /* Content-ViewModel.swift */,
 				BD3E990C2C594ED000CF13E2 /* Assets.xcassets */,
+				BD3EE28F2C595DFA0068B0F4 /* NoteGarden🍃 */,
 				BD3E990E2C594ED000CF13E2 /* Preview Content */,
 			);
 			path = "NoteGarden🍃";
@@ -65,6 +83,25 @@
 				BD3E990F2C594ED000CF13E2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD3EE28B2C595DFA0068B0F4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BD3EE28A2C595DFA0068B0F4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD3EE28F2C595DFA0068B0F4 /* NoteGarden🍃 */ = {
+			isa = PBXGroup;
+			children = (
+				BD3EE28B2C595DFA0068B0F4 /* Preview Content */,
+				BD3EE28C2C595DFA0068B0F4 /* Assets.xcassets */,
+				BD3EE28D2C595DFA0068B0F4 /* ContentView.swift */,
+				BD3EE28E2C595DFA0068B0F4 /* NoteGarden__App.swift */,
+			);
+			name = "NoteGarden🍃";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +163,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD3E99102C594ED000CF13E2 /* Preview Assets.xcassets in Resources */,
+				BD3EE2902C595DFA0068B0F4 /* Preview Assets.xcassets in Resources */,
+				BD3EE2912C595DFA0068B0F4 /* Assets.xcassets in Resources */,
 				BD3E990D2C594ED000CF13E2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +178,11 @@
 			files = (
 				BD3E990B2C594ECE00CF13E2 /* ContentView.swift in Sources */,
 				BD3E99092C594ECE00CF13E2 /* NoteGarden__App.swift in Sources */,
+				BD3EE29F2C5AB03D0068B0F4 /* Content-ViewModel.swift in Sources */,
+				BD3EE2A32C5AB89B0068B0F4 /* ImagePicker.swift in Sources */,
+				BD3EE2932C595DFA0068B0F4 /* NoteGarden__App.swift in Sources */,
+				BD3EE29D2C5AAFF20068B0F4 /* CameraView.swift in Sources */,
+				BD3EE2922C595DFA0068B0F4 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,10 +318,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"NoteGarden🍃/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The Camera will be used to record the user studying, doing work, etc for a certain duration of time.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "Fonts\\ provided\\ by\\ application\\ (bottom\\ home\\ button) UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,10 +347,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"NoteGarden🍃/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The Camera will be used to record the user studying, doing work, etc for a certain duration of time.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "Fonts\\ provided\\ by\\ application\\ (bottom\\ home\\ button) UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
